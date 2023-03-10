@@ -23,11 +23,13 @@ class MediaPlayer {
     this.media.pause();
   }
 
-  togglePlay() {
+  togglePlay(btn:HTMLElement) {
     if (this.media.paused) {
       this.play();
+      btn.innerText = 'Pause'
     } else {
       this.pause();
+      btn.innerText = 'Play'
     }
   }
 
@@ -37,6 +39,16 @@ class MediaPlayer {
 
   unmute() {
     this.media.muted = false;
+  }
+
+  toggleMute(btn:HTMLElement) {
+    if (this.media.muted) {
+      this.unmute();
+      btn.innerText = 'Mute'
+    } else {
+      this.mute();
+      btn.innerText = 'Unmute'
+    }
   }
 }
 

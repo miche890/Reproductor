@@ -10,75 +10,85 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="./assets/index.css" />
+    <link rel="shortcut icon" href="./assets/2.ico" type="image/x-icon">
   </head>
   <body>
     <header>
-      <h1>MediaPlayer</h1>
-      <p>An extensible media player</p>
+      <h1>Cancion favorita de BTS</h1>
+      <p>BTS 방탄소년단 Permission to Dance Official MV</p>
     </header>
     <main class="container">
-      <video class="movie">
-        <source src="./assets/video.mp4" />
-      </video>
-      <button id="playButton">play / pause</button>
-      <button id="muteButton">Mute/Unmute</button>
-      <h2>Comments</h2>
-      <ul>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
-          non officiis a repellendus molestias ipsum aspernatur, adipisci
-          temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur
-          odit esse eos.
-        </li>
-        <li>
-          Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
-          exercitationem commodi illo minus id ratione minima? Enim eum
-          consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
-          Sequi.
-        </li>
-        <li>
-          Ipsam laudantium quae aliquid nulla eligendi atque molestias ratione
-          libero. Omnis corrupti doloribus reiciendis incidunt eos voluptatum
-          vero optio modi ab excepturi soluta, assumenda unde eius tempora
-          provident. Labore, corporis?       
-        </li>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
-          non officiis a repellendus molestias ipsum aspernatur, adipisci
-          temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur
-          odit esse eos.
-        </li>
-        <li>
-          Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
-          exercitationem commodi illo minus id ratione minima? Enim eum
-          consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
-          Sequi.
-        </li>
-        <li>
-          Ipsam laudantium quae aliquid nulla eligendi atque molestias ratione
-          libero. Omnis corrupti doloribus reiciendis incidunt eos voluptatum
-          vero optio modi ab excepturi soluta, assumenda unde eius tempora
-          provident. Labore, corporis?       
-        </li>
-        <li>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe natus
-          non officiis a repellendus molestias ipsum aspernatur, adipisci
-          temporibus vel maiores omnis ad facere nihil asperiores. Aspernatur
-          odit esse eos.
-        </li>
-        <li>
-          Numquam eaque deleniti, debitis saepe vero, odit quidem ut dolor nemo,
-          exercitationem commodi illo minus id ratione minima? Enim eum
-          consequatur eveniet unde accusamus alias ipsam sed blanditiis dicta!
-          Sequi.
-        </li>
-        <li>
-          Ipsam laudantium quae aliquid nulla eligendi atque molestias ratione
-          libero. Omnis corrupti doloribus reiciendis incidunt eos voluptatum
-          vero optio modi ab excepturi soluta, assumenda unde eius tempora
-          provident. Labore, corporis?       
-        </li>
-      </ul>
+      <section class="video">
+        <video class="movie">
+          <source
+            src="./assets/BTS 방탄소년단 Permission to Dance Official MV_360p.mp4"
+          />
+        </video>
+        <section class="botones">
+          <button id="playButton">Pause</button>
+          <button id="muteButton">Unmute</button>
+        </section>
+      </section>
+      <section class="info">
+        <h2>Algunos detalles sobre la canción</h2>
+        <ul>
+          <li>
+            <p>
+              <strong>Permission to Dance</strong> es una canción del grupo
+              surcoreano BTS, lanzada el 9 de julio de 2021 a través de Big Hit
+              y Sony Music.
+            </p>
+          </li>
+          <li>
+            <p>
+              Fue escrita por Ed Sheeran, Johnny McDaid, Steve Mac y Jenna
+              Andrews. Los dos últimos también se encargaron de la producción
+              junto con Stephen Kirk. Big Hit inicialmente comunicó:
+              <strong
+                >que [la canción] hará que tu corazón palpite al ritmo de la
+                energía positiva de BTS.</strong
+              >
+            </p>
+          </li>
+          <li>
+            <p>
+              La idea de Permission to dance es que en un momento en el que
+              tenemos que dejar de hacer tantísimas cosas nadie nos tiene que
+              dar permiso para mover el cuerpo. Es un mensaje de esperanza
+              presente que se une a la esperanza de futuro.
+            </p>
+          </li>
+          <li>
+            <p>
+              El MV es una fiesta de la diversidad. BTS se han asegurado que
+              este mensaje nos llegue a TODOS. Y cuando decimos TODOS es a TODO
+              EL MUNDO.<strong>
+                Si no os habíais dado cuenta, la coreografía incluye lengua de
+                signos y BTS dicen con las manos que bailemos</strong
+              >.
+            </p>
+          </li>
+          <li>
+            <p>
+              Influenciados por la epoca de lanzamientoo de la cancion, BTS
+              buscaban en un principio dar un mensaje positivo y motivador en
+              estos momentos de crisis que estaban pasando millones de personas.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Permission to Dance</strong> debutó en el número uno en la
+              Billboard Hot 100 en Estados Unidos, en la edición del 24 de julio
+              de 2021. Vendió 140 000 copias en su primera semana de lanzamiento
+              y obtuvo 15.9 millones de streams y 1.1 millones de impresiones en
+              la radio. La canción reemplazó a <strong>Butter</strong> en el
+              primer lugar de la lista, por lo que BTS fue el primer artista en
+              reemplazarse a sí mismo desde que Drake lo consiguió en 2018 con
+              <strong>In My Feelings</strong> y <strong>Nice for What</strong>.
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
     <script type="module" src="/assets/index.ts"></script>
   </body>
